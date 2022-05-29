@@ -111,7 +111,7 @@
 
 \lhead{\includegraphics[width=4cm]{./Figuras/logoeet465.png}}
 \chead{}
-\rhead{\normalsize \textrm{Plan de proyecto de Trabajo final \\\degreename\\ \authorname}}
+\rhead{\normalsize \textrm{Plan de proyecto de Conservadora de Temperatura\\\degreename\\ \authorname}}
 \lfoot{ }
 \cfoot{\normalsize Página \thepage \hspace{1px} de \pageref{LastPage}}
 \rfoot{}
