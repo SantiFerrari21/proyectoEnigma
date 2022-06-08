@@ -4,11 +4,18 @@ Se describen los riesgos para el desarrollo del proyecto y su plan de mitigació
 
 \textbf{a) Identificación de los riesgos y estimación de sus consecuencias:}
  
-Relleno: -
+Riesgo 1: El recipiente seleccionado para la conservadora no este suficientemente aislado, llevando esto a que las celdas peltier se recalienten y se rompan.
 \begin{itemize}
-\item Severidad (S): X. -
-\item Ocurrencia (O): X. -
+\item Severidad (S): 10. El riesgo es máximo, puesto que detendría el funcionamiento del equipo.
+\item Ocurrencia (O): 3. Se asigna esta ocurrencia ya que se realizaran las pruebas necesarias para evitar este problema.
 \end{itemize}   
+
+Riesgo 2: Falla del firmware.
+\begin{itemize}
+\item Severidad (S): 7. Este error provocaría un funcionamiento inestable.
+\item Ocurrencia (O): 8. Se asigna esta ocurrencia debido a la dificultad del desarrollo de firmware.
+\end{itemize}   
+
 
 \textbf{b) Tabla de gestión de riesgos:}
 
@@ -18,18 +25,19 @@ Relleno: -
 \hline
 \rowcolor[HTML]{C0C0C0} 
 Riesgo & S & O & RPN & S* & O* & RPN*  \\ \hline
-1. Relleno & - & - & - &   - &  -  & - \\ \hline
+1. La aislación no es la adecuada & 10 & 3 & 30 & - &  -  & - \\ \hline
+2. Falla de firmware & 7 & 8 & 56 & - &  -  & - \\ \hline
 \end{tabularx}%
 \end{table}
 
-Criterio adoptado:-
+Criterio adoptado:Se trabajara para mitigar las medidas con un RPN mayor a 40.
 
 Nota: los valores marcados con (*) en la tabla corresponden luego de haber aplicado la mitigación.
 
 \textbf{c) Plan de mitigación de los riesgos que originalmente excedían el RPN máximo establecido:}
 
-Relleno: -
+Riesgo 2: Se trabajara meticulosamente durante el desarrollo de cada una de las funciones del firmware. Se pondra en prueba el sistema durante un período de prueba hasta lograr estabilidad.
 \begin{itemize}
-\item Severidad (S): X. -
-\item Probabilidad de ocurrencia (O): X. -
+\item Severidad (S): 7. No se modifica.
+\item Probabilidad de ocurrencia (O): 3. Con el proceso de pruebas se espera una baja probabilidad de fallas.
 \end{itemize}
