@@ -171,7 +171,7 @@
 	\vspace{4cm}
 	
 	\flushleft
-	{\normalsize Alumno:\\}
+	{\normalsize Alumnos:\\}
 	{\Large \authorname \\}
 	\vspace{1cm}
 	
