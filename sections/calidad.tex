@@ -3,3 +3,29 @@
 
 
 Se presentan a continuación los requerimientos con sus verificaciones y validaciones:
+
+\begin{itemize}
+    \item 1.1: La celda peltier debe ser capaz de enfriar a 0°C.
+    \begin{itemize}
+        \item Verificación: se verificara los limites de la celda en su hoja de datos.
+        \item Validación: se comprobara si las celdas enfrían lo suficiente.
+    \end{itemize}
+    \item 1.2: El sensor de temperatura debe ser capaz de medir de 0°C a 40°C.
+    \begin{itemize}
+        \item Verificación: se observará la hoja de datos del sensor.
+        \item Validación: se hará una prueba de funcionamiento en el rango de temperaturas requeridas para observar los valores medidos. Luego se contrastarán con un instrumento que posea certificación.
+    \end{itemize}
+    \item 2.1: Los parámetros deberán guardarse en memoria no volátil.
+    \begin{itemize}
+        \item Verificación: Se inspeccionará el codigo fuente del firmware para observar la inclusión de tales parámetros y su grabación en memoria no volátil.
+        \item Validación: a través de la página web del dispositivo se comprobará que existan los parámetros. Se procederá al cambio de valores, reinicio del dispositivo y comprobación del cambio de los parámetros antes grabados.
+    \end{itemize}
+    \item 2.2 La conservadora deberá incorporar una página web para configuración de parámetros.
+    \begin{itemize}
+        \item Verificación: se inspeccionará el código fuente del firmware para observar la inclusión de las funciones para la activación del servidor web interno.
+        \item Validación: se ingresará a la página web del dispositivo.
+    \end{itemize}
+    \item 3.1: Deberá mostrar la temperatura actual y la temperatura fijada por el usuario.
+    \item 3.2: Deberá mostrar una tabla con el histórico de las temperaturas fijadas.
+    \item 3.3: Deberá mostrar un gráfico de la temperatura en función del tiempo con rango configurable.
+\end{itemize}
